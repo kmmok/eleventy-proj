@@ -1,0 +1,11 @@
+---
+title: "Dunedin Youth Orchestra"
+layout: "base.njk"
+---
+
+<h2 class="projects__heading">Past concerts</h2>
+<div class="project-list">
+  {% for project in collections.projects %}
+    {% include "project-card.njk" %}
+  {% endfor %}
+</div>
