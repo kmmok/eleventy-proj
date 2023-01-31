@@ -11,6 +11,7 @@ gallery:
 seo:
   page_title: About
   description: All about us!
+  custom_subtext: Do stuff!
   social_image: ''
 _inputs:
   seo:
@@ -20,7 +21,7 @@ _inputs:
         text:
           - key: page_title
         subtext:
-          - key: 'what'
+          - key: custom_subtext
         image:
           - key: social_image
         icon: travel_explore
