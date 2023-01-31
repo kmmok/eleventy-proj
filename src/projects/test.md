@@ -11,11 +11,8 @@ gallery:
 seo:
   page_title: About
   description: All about us!
-  custom_subtext: Do stuff!
   social_image: ''
 _inputs:
-  custom_subtext: 
-    hidden: true
   seo:
     type: object
     options:
