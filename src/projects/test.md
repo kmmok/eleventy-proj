@@ -7,17 +7,11 @@ navigation_order: 2
 gallery:
   - image: ''
     caption:
-_inputs: 
-  gallery:
-    type: object
-    options:
-      preview:
-        subtext: 'hello'
+
 seo:
   page_title: About
   description: All about us!
   social_image: ''
-
 _inputs:
   seo:
     type: object
