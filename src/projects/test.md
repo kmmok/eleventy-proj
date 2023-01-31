@@ -9,6 +9,7 @@ gallery:
     caption:
 _inputs: 
   gallery:
+    type: object
     options:
       preview:
         subtext: 'hello'
