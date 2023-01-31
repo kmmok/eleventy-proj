@@ -23,5 +23,30 @@ _inputs:
         image:
           - key: social_image
         icon: travel_explore
+        
+
+page_blocks:
+  - template: text-block
+    include_left-hand_column_text_: true
+    lefthand_text:
+      text: Confidence, Compensation, Competition
+      header_type: Medium Header
+      download: ''
+      link_url: ''
+      link_text: ''
+      subtext:
+        - key: alt_text
+        - No alternative text
+    section_break: false
+    text_block: ''
+  - template: portrait-gallery-block-small
+    section_break: false
+    include_left-hand_column_text_: false
+    lefthand_text:
+      header_type: ''
+      text: ''
+      download: ''
+      link_url: ''
+      link_text: ''
 ---
 Nothing is green or [blue](/services/).
