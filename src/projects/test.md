@@ -7,18 +7,9 @@ navigation_order: 2
 gallery:
   - image: ''
     caption:
-page_sections:
-_inputs:
-  page_sections:
-    type: array
-    options:
-      preview:
-        text:
-          - key: name
-        subtext:
-          - key: description
-        image:
-          - key: my_image
-        icon: article
+staff:
+  - Bill
+  - Ben
+  - Badger
 ---
 Nothing is green or [blue](/services/).
