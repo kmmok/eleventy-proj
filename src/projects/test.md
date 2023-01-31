@@ -12,6 +12,10 @@ seo:
   page_title: About
   description: All about us!
   social_image: ''
+  animals:
+    bird1: 
+    bird2:
+    bird2:
 _inputs:
   seo:
     type: object
