@@ -13,9 +13,9 @@ seo:
   description: All about us!
   social_image: ''
   animals:
-    bird1: 
-    bird2:
-    bird2:
+    - bird1: 
+    - bird2:
+    - bird2:
 _inputs:
   seo:
     type: object
