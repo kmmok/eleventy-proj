@@ -5,6 +5,7 @@ large_header: false
 show_in_navigation: true
 navigation_order: 2
 gallery:
+  subtext: hello
   - image: ''
     caption:
 page_sections:
@@ -12,7 +13,6 @@ _inputs:
   page_sections:
     type: array
     options:
-      structures: _structures.components
       preview:
         text:
           - key: name
