@@ -20,7 +20,7 @@ _inputs:
         text:
           - key: page_title
         subtext:
-          - key: description
+          - key: "description"
         image:
           - key: social_image
         icon: travel_explore
