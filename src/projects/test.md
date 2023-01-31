@@ -34,9 +34,6 @@ page_blocks:
       download: ''
       link_url: ''
       link_text: ''
-      subtext:
-        - key: alt_text
-        - No alternative text
     section_break: false
     text_block: ''
   - template: portrait-gallery-block-small
