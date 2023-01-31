@@ -6,7 +6,7 @@ show_in_navigation: true
 navigation_order: 2
 gallery:
   - image: /uploads/azzedine-rouichi-5n8kqe908xi-unsplash.jpg
-    caption: desert
+    caption:
 _structures:
   gallery:
     style: modal
