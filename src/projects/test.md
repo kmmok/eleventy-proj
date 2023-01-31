@@ -14,7 +14,7 @@ seo:
   social_image: ''
   animals:
     - bird1: 
-    - bird2:
+    - image:
     - bird2:
 _inputs:
   seo:
