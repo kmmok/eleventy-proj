@@ -23,14 +23,6 @@ _inputs:
         image:
           - key: social_image
         icon: travel_explore
-_inputs:
-  page_blocks:
-    options:
-      text:
-        - key: template
-      preview:
-        subtext:
-          - key: alt_text
-          - key: label
+
 ---
 Nothing is green or [blue](/services/).
