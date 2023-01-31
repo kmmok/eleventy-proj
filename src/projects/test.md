@@ -14,6 +14,8 @@ seo:
   custom_subtext: Do stuff!
   social_image: ''
 _inputs:
+  custom_subtext: 
+    hidden: true
   seo:
     type: object
     options:
