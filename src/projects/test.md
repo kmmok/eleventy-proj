@@ -23,8 +23,6 @@ _inputs:
         image:
           - key: social_image
         icon: travel_explore
-        
-
 page_blocks:
   - template: text-block
     include_left-hand_column_text_: true
