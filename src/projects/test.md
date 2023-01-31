@@ -5,22 +5,21 @@ large_header: false
 show_in_navigation: true
 navigation_order: 2
 gallery:
-  - image: /uploads/azzedine-rouichi-5n8kqe908xi-unsplash.jpg
+  - image: ''
     caption:
-_structures:
-  gallery:
-    style: modal
-    values:
-      - label: Image
-        icon: image
-        subtext: hi
-        value:
-          image: /uploads/placeholder.png
-          caption:
-      - label: External link
-        icon: link
-        value:
-          url:
-          title:
+page_sections:
+_inputs:
+  page_sections:
+    type: array
+    options:
+      structures: _structures.components
+      preview:
+        text:
+          - key: name
+        subtext:
+          - key: description
+        image:
+          - key: my_image
+        icon: article
 ---
 Nothing is green or [blue](/services/).
