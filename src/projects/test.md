@@ -5,7 +5,6 @@ large_header: false
 show_in_navigation: true
 navigation_order: 2
 gallery:
-  subtext: hello
   - image: ''
     caption:
 page_sections:
