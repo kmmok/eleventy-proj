@@ -23,27 +23,6 @@ _inputs:
         image:
           - key: social_image
         icon: travel_explore
-page_blocks:
-  - template: text-block
-    include_left-hand_column_text_: true
-    lefthand_text:
-      text: Confidence, Compensation, Competition
-      header_type: Medium Header
-      download: ''
-      link_url: ''
-      link_text: ''
-    section_break: false
-    text_block: ''
-  - template: portrait-gallery-block-small
-    section_break: false
-    include_left-hand_column_text_: false
-    lefthand_text:
-      header_type: ''
-      text: ''
-      download: ''
-      link_url: ''
-      link_text: ''
-    text_block: OK this should show
 _inputs:
   page_blocks:
     options:
@@ -51,14 +30,7 @@ _inputs:
         - key: template
       preview:
         subtext:
-          - key: text_block
-          - Fallback text
-  lefthand_text:
-    options:
-      preview:
-        text:
-          - key: header_type
-        subtext:
-          - key: text
+          - key: alt_text
+          - key: label
 ---
 Nothing is green or [blue](/services/).
