@@ -22,8 +22,7 @@ _inputs:
       preview:
         text:
           - key: page_title
-        subtext:
-          - key: custom_subtext
+        subtext: 'hello'
         image:
           - key: social_image
         icon: travel_explore
