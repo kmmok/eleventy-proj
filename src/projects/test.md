@@ -45,5 +45,22 @@ page_blocks:
       download: ''
       link_url: ''
       link_text: ''
+    text_block: OK this should show
+_inputs:
+  page_blocks:
+    options:
+      text:
+        - key: template
+      preview:
+        subtext:
+          - key: text_block
+          - Fallback text
+  lefthand_text:
+    options:
+      preview:
+        text:
+          - key: header_type
+        subtext:
+          - key: text
 ---
 Nothing is green or [blue](/services/).
