@@ -7,7 +7,6 @@ navigation_order: 2
 gallery:
   - image: ''
     caption:
-
 seo:
   page_title: About
   description: All about us!
@@ -19,10 +18,11 @@ _inputs:
       preview:
         text:
           - key: page_title
-        subtext: 'hello'
+        subtext: hello
         image:
           - key: social_image
         icon: travel_explore
-
 ---
 Nothing is green or [blue](/services/).
+
+<img src="/uploads/marek-piwnicki-zy-hd6gpfaa-unsplash.jpg" width="3411" height="5116" />
