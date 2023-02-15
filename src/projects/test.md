@@ -25,4 +25,4 @@ _inputs:
 ---
 Nothing is green or [blue](/services/).
 
-<img src="/uploads/marek-piwnicki-zy-hd6gpfaa-unsplash.jpg" width="3411" height="5116" />
+<img src="/uploads/marek-piwnicki-zy-hd6gpfaa-unsplash-1.jpg" width="3411" height="5116" />
