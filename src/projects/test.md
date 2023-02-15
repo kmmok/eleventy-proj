@@ -22,7 +22,11 @@ _inputs:
         image:
           - key: social_image
         icon: travel_explore
+_editables:
+  image:
+    height: 40
+    width: 20
 ---
 Nothing is green or [blue](/services/).
 
-<img src="/uploads/marek-piwnicki-zy-hd6gpfaa-unsplash-1.jpg" width="3411" height="5116" />
+<img src="/uploads/e5663b8a-b8fc-4533-b2cf-355db2db71a1.jpeg" width="512" height="512" />
