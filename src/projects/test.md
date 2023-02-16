@@ -29,4 +29,4 @@ _editables:
 ---
 Nothing is green or [blue](/services/).
 
-<img src="/uploads/e5663b8a-b8fc-4533-b2cf-355db2db71a1.jpeg" width="512" height="512" />
+<img width="512" height="512" src="/uploads/e5663b8a-b8fc-4533-b2cf-355db2db71a1.jpeg" />
