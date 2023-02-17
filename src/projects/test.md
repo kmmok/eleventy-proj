@@ -25,6 +25,7 @@ _editables:
     superscript: true
     underline: true
     bulletedlist: true
+    styles: /css/editor.css
     left: align-left
     center: align-center
     right: align-right
