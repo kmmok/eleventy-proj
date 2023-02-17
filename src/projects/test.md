@@ -15,7 +15,7 @@ _editables:
   image:
     height: 40
     width: 20
-  options:
+  content:
     blockquote: true
     bold: true
     format: p h1 h2 h3 h4 h5 h6 pre address div
