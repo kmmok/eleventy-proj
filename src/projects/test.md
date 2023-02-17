@@ -25,6 +25,9 @@ _editables:
     superscript: true
     underline: true
     bulletedlist: true
+    left: align-left
+    center: align-center
+    right: align-right
 
 
 
