@@ -11,17 +11,7 @@ seo:
   page_title: About
   description: All about us!
   social_image: ''
-_inputs:
-  seo:
-    type: object
-    options:
-      preview:
-        text:
-          - key: page_title
-        subtext: hello
-        image:
-          - key: social_image
-        icon: travel_explore
+
 _editables:
   image:
     height: 40
