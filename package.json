@@ -7,6 +7,6 @@
     "eleventy-plugin-embed-spotify": "^1.2.4"
   },
   "scripts": {
-    "build": "npx @11ty/eleventy"
+    "build": "eleventy"
   }
 }
