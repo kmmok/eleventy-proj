@@ -1,0 +1,4 @@
+_editables:
+  content:
+    image: true
+    styles: css/editor.css
