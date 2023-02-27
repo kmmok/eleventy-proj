@@ -2,3 +2,8 @@ _editables:
   content:
     image: true
     styles: css/editor.css
+    
+collections_config:
+  2023-Projects:
+    add_options:
+      - name: Add Project
