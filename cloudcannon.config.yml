@@ -7,4 +7,4 @@ collections_config:
   2023-Projects:
     path: src/2023-Projects
     add_options:
-      - name: Add Project
+      - name: Add Project 2
