@@ -22,4 +22,3 @@ _inputs:
 ---
 Nothing is green or [blue](/services/).
 
-{{ top_image }}
