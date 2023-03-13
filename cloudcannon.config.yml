@@ -1,6 +1,6 @@
 _editables:
   content:
-    image: true
+    image: 
       options:
         resize_style: contain
         width: 100
@@ -15,3 +15,4 @@ collections_config:
 
 paths:
   dam_uploads: https://res.cloudinary.com/vermilion-mandrill/image/upload/
+  dam_static: 
