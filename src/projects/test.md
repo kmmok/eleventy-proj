@@ -9,7 +9,7 @@ seo:
   description: All about us!
   social_image: ''
 
-image: /w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
+image: w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
 
 _inputs:
   image:
