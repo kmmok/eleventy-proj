@@ -16,8 +16,8 @@ _inputs:
   image: 
     type: image
     options:
-      width:
-      height:
+      width: 50
+      height: 50
 
 
 
