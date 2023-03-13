@@ -11,9 +11,8 @@ seo:
 top_image:
   image: >-
     https://res.cloudinary.com/vermilion-mandrill/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
-  width:
-  height:
-
+  width: '60'
+  height: '90'
 _inputs:
   image:
     type: image
@@ -22,3 +21,5 @@ _inputs:
       height: top_image.height
 ---
 Nothing is green or [blue](/services/).
+
+{{ top_image }}
