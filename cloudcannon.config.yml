@@ -1,6 +1,10 @@
 _editables:
   content:
     image: true
+      options:
+        resize_style: contain
+        width: 100
+        height: 100
     styles: css/editor.css
     
 collections_config:
