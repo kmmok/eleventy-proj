@@ -8,3 +8,6 @@ collections_config:
     path: src/2023-Projects
     add_options:
       - name: Add Project 2
+
+paths:
+  dam_uploads: https://res.cloudinary.com/vermilion-mandrill/image/upload/
