@@ -15,9 +15,7 @@ image: https://res.cloudinary.com/vermilion-mandrill/image/upload/w_1000,ar_16:9
 _inputs:
   image: 
     type: image
-      options:
-        width:
-        height:
+
 
 
 
