@@ -8,8 +8,10 @@ seo:
   page_title: About
   description: All about us!
   social_image: ''
-top_image:
-  image: >-
+
+_inputs:
+  top_image:
+    image: >-
     https://res.cloudinary.com/vermilion-mandrill/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
 
 ---
