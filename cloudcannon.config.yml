@@ -40,7 +40,10 @@ _editables:
     justify: align-justify
     image_size_attributes: true
     snippet: true
-    
+
+_inputs:
+
+_inputs:
 
 paths:
   dam_uploads: https://res.cloudinary.com/vermilion-mandrill/image/upload/
