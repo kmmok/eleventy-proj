@@ -10,13 +10,11 @@ attachment: oyvar/oyvar_annonse_2023.pdf
 tags:
   - gebyrer
 social:
+facebook:
 ---
 **Kommunstyret i Ã˜ygarden vedtok 15.desember at gebyret for vatn, avlÃ¸p og renovasjon blir auke i 2023. Ã…rsaka er hÃ¸gare utgifter til renter og straum i tillegg til generell prisauke.**
 
-Vi forstÃ¥r at auka gebyr ikkje stÃ¥r Ã¸verst pÃ¥ Ã¸nskelista di til jul. Men det
-viktigaste vi gjer er Ã¥ sikre at du fÃ¥r reint vatn i springen, og at avlÃ¸p
-og renovasjon fungerer som det skal. Grunna auka kostnadar til renter
-og straum, blir gebyret til vatn, avlÃ¸p og renovasjon auka i 2023.
+Vi forstÃ¥r at auka gebyr ikkje stÃ¥r Ã¸verst pÃ¥ Ã¸nskelista di til jul. Men det viktigaste vi gjer er Ã¥ sikre at du fÃ¥r reint vatn i springen, og at avlÃ¸p og renovasjon fungerer som det skal. Grunna auka kostnadar til renter og straum, blir gebyret til vatn, avlÃ¸p og renovasjon auka i 2023.
 
 ## Heile Noreg fÃ¥r auka gebyr
 
