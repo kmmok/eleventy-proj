@@ -11,6 +11,12 @@ tags:
   - gebyrer
 social:
 facebook:
+colour: 
+  preview:
+  icon: nature_people
+  icon_color:
+    - key: color
+    - '#ff0000'
 ---
 **Kommunstyret i Ã˜ygarden vedtok 15.desember at gebyret for vatn, avlÃ¸p og renovasjon blir auke i 2023. Ã…rsaka er hÃ¸gare utgifter til renter og straum i tillegg til generell prisauke.**
 
