@@ -8,13 +8,16 @@ seo:
   description: All about us!
   social_image: ''
 colour: red-500
+_inputs: 
+  colour: 
+    type: text
 image: w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
 call_to_action:
   allow_empty: true
-  text: "Text shown in `call to action` button"
+  text: Text shown in `call to action` button
   donate_modal:
     enable_donate: true
-    url: 
+    url:
 ---
 Nothing is green or [blue](/services/).
 
