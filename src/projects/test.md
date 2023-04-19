@@ -15,12 +15,12 @@ call_to_action:
   donate_modal:
     enable_donate: true
     url:
-_inputs:
-  cta_button_text:
-    type: text
-    label: Text shown in `call to action` button
-  url:
-    label: "URL for `call to action` button"
+<!--_inputs:-->
+<!--  cta_button_text:-->
+<!--    type: text-->
+<!--    label: Text shown in `call to action` button-->
+<!--  url:-->
+<!--    label: "URL for `call to action` button"-->
 ---
 Nothing is green or [blue](/services/).
 
