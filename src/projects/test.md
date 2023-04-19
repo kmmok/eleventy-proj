@@ -10,12 +10,10 @@ seo:
 image: w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
 call_to_action:
   allow_empty: true
-  text:
-    comment: "Text shown in `call to action` button"
+  text: "Text shown in `call to action` button"
   donate_modal:
     enable_donate: true
-    url:
-      comment: "URL for `call to action` button"
+    url: "URL for `call to action` button"
 ---
 Nothing is green or [blue](/services/).
 
