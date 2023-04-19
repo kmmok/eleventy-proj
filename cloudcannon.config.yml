@@ -41,6 +41,9 @@ _editables:
     image_size_attributes: true
     snippet: true
 
+_inputs:
+  call_to_action:
+    type: object
 paths:
   dam_uploads: https://res.cloudinary.com/vermilion-mandrill/image/upload/
   dam_static: 
