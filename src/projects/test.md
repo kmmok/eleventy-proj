@@ -19,7 +19,7 @@ _inputs:
     type: text
     comment: Text shown in `call to action` button
   url:
-    comment: "When checked, clicking on the `call to action` button opens the Donate modal and the `url` attribute is ignored"
+    label: "URL for `call to action` button"
 ---
 Nothing is green or [blue](/services/).
 
