@@ -12,7 +12,7 @@ image: w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
 _inputs:
   call_to_action:
     type: object
-    allow_empty: true
+      allow_empty: true
       text:
         label: "Text shown in `call to action` button"
       opens_donate_modal:
