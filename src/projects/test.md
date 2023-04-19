@@ -12,10 +12,10 @@ call_to_action:
   allow_empty: true
   text:
     label: "Text shown in `call to action` button"
-      donate_modal:
-        enable_donate: true
-        url:
-          label: "URL for `call to action` button"
+  donate_modal:
+    enable_donate: true
+    url:
+      label: "URL for `call to action` button"
 ---
 Nothing is green or [blue](/services/).
 
