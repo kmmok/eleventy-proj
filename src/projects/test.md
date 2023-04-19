@@ -19,8 +19,9 @@ call_to_action:
 _inputs:
   call_to_action:
     type: object
-    preview:
-      subtext: subtext
+    options:
+      preview:
+        subtext: subtext
   cta_button_text:
     type: text
     label: Text shown in `call to action` button
