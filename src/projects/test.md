@@ -8,6 +8,7 @@ seo:
   description: All about us!
   social_image: ''
 image: w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
+
 call_to_action:
   allow_empty: true
   cta_button_text:
@@ -17,7 +18,7 @@ call_to_action:
 _inputs:
   cta_button_text:
     type: text
-    comment: Text shown in `call to action` button
+    label: Text shown in `call to action` button
   url:
     label: "URL for `call to action` button"
 ---
