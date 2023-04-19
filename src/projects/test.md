@@ -17,8 +17,11 @@ call_to_action:
     url:
 
 _inputs:
+  call_to_action:
+    type: object
+    preview:
+      subtext: subtext
   cta_button_text:
-    subtext: subtext
     type: text
     label: Text shown in `call to action` button
   url:
