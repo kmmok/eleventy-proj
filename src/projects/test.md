@@ -18,10 +18,11 @@ call_to_action:
 
 _inputs:
   cta_button_text:
+    subtext: subtext
     type: text
     label: Text shown in `call to action` button
   url:
-    label: “URL for `call to action` button”
+    label: URL for `call to action` button
 ---
 Nothing is green or [blue](/services/).
 
