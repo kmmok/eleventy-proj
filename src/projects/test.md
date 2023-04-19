@@ -21,7 +21,12 @@ _inputs:
     type: object
     options:
       preview:
-        subtext: subtext
+        subtext: Setup Call to action button
+  donate_modal:
+    type: object
+    options:
+      preview:
+        subtext: Setup the Donate modal
   cta_button_text:
     type: text
     label: Text shown in `call to action` button
