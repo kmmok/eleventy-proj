@@ -13,7 +13,7 @@ call_to_action:
   text: "Text shown in `call to action` button"
   donate_modal:
     enable_donate: true
-    url: "URL for `call to action` button"
+    url: 
 ---
 Nothing is green or [blue](/services/).
 
