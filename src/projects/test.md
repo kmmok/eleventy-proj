@@ -7,17 +7,19 @@ seo:
   page_title: About
   description: All about us!
   social_image: ''
-colour: red-500
-_inputs: 
-  colour: 
-    hidden: true
 image: w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
 call_to_action:
   allow_empty: true
-  text: Text shown in `call to action` button
+  cta_button_text:
   donate_modal:
     enable_donate: true
     url:
+_inputs:
+  cta_button_text:
+    type: text
+    comment: Text shown in `call to action` button
+  url:
+    comment: "When checked, clicking on the `call to action` button opens the Donate modal and the `url` attribute is ignored"
 ---
 Nothing is green or [blue](/services/).
 
