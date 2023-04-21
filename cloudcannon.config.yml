@@ -45,5 +45,5 @@ _editables:
 #   call_to_action:
 #     type: object
 paths:
-  dam_uploads: https://res.cloudinary.com/vermilion-mandrill/image/upload/
+  dam_uploads: 
   dam_static: 
