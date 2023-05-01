@@ -50,6 +50,8 @@ paths:
   
 _inputs: 
   date:
-    instance_value: NOW
+    options:
+      instance_value: NOW
   id:
-    instance_value: uuid
+    options:
+      instance_value: uuid
