@@ -54,5 +54,4 @@ _inputs:
     type: datetime
     instance_value: NOW
   id:
-    type: text
     instance_value: uuid
