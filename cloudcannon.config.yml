@@ -62,3 +62,4 @@ collections_config:
       default:
         path: schemas/post.md
       remove_extra_inputs: false
+      hide_extra_inputs: false
