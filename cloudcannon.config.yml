@@ -41,6 +41,7 @@ _editables:
     image_size_attributes: true
     snippet: true
 
+timezone: Pacific/Auckland
 # _inputs:
 #   call_to_action:
 #     type: object
