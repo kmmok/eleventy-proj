@@ -47,3 +47,9 @@ _editables:
 paths:
   dam_uploads: 
   dam_static: 
+  
+_inputs: 
+  date:
+    instance_value: NOW
+  id:
+    instance_value: uuid
