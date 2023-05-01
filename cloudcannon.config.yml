@@ -55,3 +55,10 @@ _inputs:
     instance_value: NOW
   id:
     instance_value: uuid
+    
+collections_config:
+  posts:
+    schemas:
+      default:
+        path: schemas/post.md
+      remove_extra_inputs: false
