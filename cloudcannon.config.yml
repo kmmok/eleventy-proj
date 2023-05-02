@@ -69,5 +69,7 @@ collections_config:
         hide_extra_inputs: false
     _select_data:
       ids:
+        - 1
+        - 2
 data_config:
   ids: true
