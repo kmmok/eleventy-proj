@@ -55,6 +55,10 @@ _inputs:
     instance_value: NOW
   id:
     instance_value: uuid
+  select_test:
+    type: select
+    options:
+      values: collections.projects.id
     
 collections_config:
   projects:
