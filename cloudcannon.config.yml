@@ -58,7 +58,7 @@ _inputs:
   select_test:
     type: select
     options:
-      values: collections.projects.id
+      values: collections.projects.$id
     
 collections_config:
   projects:
