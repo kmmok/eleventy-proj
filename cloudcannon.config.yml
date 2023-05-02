@@ -67,5 +67,7 @@ collections_config:
         path: schemas/post.md
         remove_extra_inputs: false
         hide_extra_inputs: false
+    _select_data:
+      ids:
 data_config:
   ids: true
