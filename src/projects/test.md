@@ -1,5 +1,10 @@
 ---
+_schema: default
 title: Oaties
+author:
+date:
+id:
+select_test:
 large_header: false
 show_in_navigation: true
 navigation_order: 2
@@ -7,15 +12,14 @@ seo:
   page_title: About
   description: All about us!
   social_image: ''
-image: w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1674511017/lily.jpg
-
+image: >-
+  https://res.cloudinary.com/vermilion-mandrill/image/upload/v1683671230/ek0dvoc47ykp7rfgljqq.png
 call_to_action:
   allow_empty: true
   cta_button_text:
   donate_modal:
     enable_donate: true
     url:
-
 _inputs:
   call_to_action:
     type: object
