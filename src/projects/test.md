@@ -13,7 +13,7 @@ seo:
   description: All about us!
   social_image: ''
 image: >-
-  https://res.cloudinary.com/vermilion-mandrill/image/upload/v1683671230/ek0dvoc47ykp7rfgljqq.png
+  https://images.unsplash.com/photo-1682687220208-22d7a2543e88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1375&q=80
 call_to_action:
   allow_empty: true
   cta_button_text:
@@ -45,10 +45,10 @@ Nothing is green or [blue](/services/).
 
 <div> </div>
 
-<div>Double paragraph</div>
+<div>Double pa</div>
 
 <div> </div>
 
 <div> </div>
 
-<div>paragraph</div>
+<div>pa</div>
