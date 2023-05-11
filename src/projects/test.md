@@ -39,7 +39,7 @@ _inputs:
 ---
 Nothing is green or [blue](#test).
 
-# Heading 1
+# Heading 1 <a href="#test">link to top</a>
 
 ### New line
 
