@@ -37,7 +37,7 @@ _inputs:
   url:
     label: URL for `call to action` button
 ---
-Nothing is green or [blue](/services/).
+Nothing is green or [blue](#test).
 
 # Heading 1
 
