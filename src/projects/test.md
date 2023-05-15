@@ -36,6 +36,8 @@ _inputs:
   url:
     label: URL for `call to action` button
 ---
+<div class="cms-embed" data-cms-embed=""></div>
+
 Nothing is green or [blue](#test).
 
 # Then everything broke.
