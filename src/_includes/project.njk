@@ -6,7 +6,7 @@ cloudinary_url: "https://res.cloudinary.com/vermilion-mandrill/image/upload/v168
 <div class="project">
   <h2 class="project__heading">{{ title }}</h2>
   <div class="project__image-wrapper">
-      <img class="project__image" src="{{ cloudinary_url image }}" alt="{{ imageAlt }}">
+      <img class="project__image" src="{{ cloudinary_url }}{{ image }}" alt="{{ imageAlt }}">
   </div>
   <div class="project__content prose">
     {{ content | safe }}
