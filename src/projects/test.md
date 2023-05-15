@@ -12,8 +12,7 @@ seo:
   page_title: About
   description: All about us!
   social_image: ''
-image: >-
-  https://images.unsplash.com/photo-1682687220208-22d7a2543e88?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1375&q=80
+image: /gprmzmiovoaophkzxa8v.jpg
 call_to_action:
   allow_empty: true
   cta_button_text:
@@ -39,18 +38,6 @@ _inputs:
 ---
 Nothing is green or [blue](#test).
 
-# Heading 1 <a href="#test">link to top</a>
+# Then everything broke.
 
-### New line
-
-<div name="test">jghj<img src="https://res.cloudinary.com/vermilion-mandrill/image/upload/v1683751587/jdp7c46txzcfbkm9viwg.jpg" /></div>
-
-<div> </div>
-
-##### Double pa
-
-<div> </div>
-
-<div> </div>
-
-<div>pa</div>
+![](/zxrthhspobu3pdzvv2j3.jpg)
