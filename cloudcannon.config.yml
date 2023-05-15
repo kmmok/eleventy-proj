@@ -47,7 +47,7 @@ timezone: Pacific/Auckland
 #     type: object
 paths:
   dam_uploads: 
-  dam_static: 
+  dam_static: https://res.cloudinary.com/vermilion-mandrill/image/upload/v1684183793/
   
 _inputs: 
   date:
