@@ -59,13 +59,3 @@ _inputs:
     type: select
     options:
       values: collections.projects.id
-    
-collections_config:
-  projects:
-    schemas:
-      default:
-        path: schemas/post.md
-        remove_extra_inputs: false
-        hide_extra_inputs: false
-data_config:
-  ids: true
