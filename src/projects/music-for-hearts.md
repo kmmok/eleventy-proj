@@ -2,7 +2,7 @@
 _schema: default
 title: Music for hearts
 summary: hearts
-image: /uploads/sauces-home.jpg
+image: /images/driedflowers30.jpg
 imageAlt: Music for hearts
 siteUrl: '#'
 repoUrl: '#'
