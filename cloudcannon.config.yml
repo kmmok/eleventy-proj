@@ -48,6 +48,7 @@ timezone: Pacific/Auckland
 paths:
   dam_uploads: https://res.cloudinary.com/vermilion-mandrill/image/upload/v1684183793
   dam_static: 
+  uploads: images/
   
 _inputs: 
   date:
