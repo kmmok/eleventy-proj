@@ -12,7 +12,7 @@ seo:
   page_title: About
   description: All about us!
   social_image: ''
-image: /gprmzmiovoaophkzxa8v.jpg
+image: https://res.cloudinary.com/vermilion-mandrill/basic-hero.preview_keth5k.png
 call_to_action:
   allow_empty: true
   cta_button_text:
@@ -36,12 +36,10 @@ _inputs:
   url:
     label: URL for `call to action` button
 ---
-<div class="cms-embed" data-cms-embed=""></div>
-
 Nothing is green or [blue](#test).
 
 # Then everything broke.
 
 **Time**\: 1-2
 
-![](/zxrthhspobu3pdzvv2j3.jpg)
+![](/zxrthhspobu3pdzvv2j3.jpg)![](https://res.cloudinary.com/vermilion-mandrill/image_0f961d36-8412-4e36-9fa1-26b14d760c3e_2000x_oixyns.webp)
