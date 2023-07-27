@@ -1,3 +1,0 @@
-paths:
-  uploads: images
-  dam_uploads: [collection]/{title|slugify}
