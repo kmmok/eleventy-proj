@@ -1,5 +1,5 @@
 paths:
-  uploads: images/
+  uploads: images
   dam_uploads: [collection]/{title|slugify}
 collections_config: {}
 _inputs:
