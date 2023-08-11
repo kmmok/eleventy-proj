@@ -19,7 +19,7 @@ call_to_action:
   donate_modal:
     enable_donate: true
     url:
-draft: true
+draft: false
 _inputs:
   call_to_action:
     type: object
