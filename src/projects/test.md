@@ -39,13 +39,9 @@ _inputs:
 ---
 Nothing is green or [blue](#test).
 
-
-
 ![](/sauces-home_rpbkg6.jpg)
 
-# ![](/SCR-20230823-sqdc_md4syy.png)
-
-#
+# ![](/upload/Landing_page_v7_v_vaerja.png)
 
 # Then everything broke.
 
