@@ -41,7 +41,9 @@ Nothing is green or [blue](#test).
 
 ![](/sauces-home_rpbkg6.jpg)
 
-# ![](/Screenshot_2023-07-12_at_9.35.47_PM_gpy5na.png)
+#
+
+# ![](/driedflowers30_v4xsbx.jpg)
 
 # Then everything broke.
 
