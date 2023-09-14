@@ -39,9 +39,11 @@ _inputs:
 ---
 Nothing is green or [blue](#test).
 
+![](/upload/Screenshot_2023-07-12_at_9.35.47_PM_pniptu.png)
+
 ![](/sauces-home_rpbkg6.jpg)
 
-# ![](/SCR-20230823-sqdc_qzeja1.png)
+#
 
 # ![](/driedflowers30_v4xsbx.jpg)
 
