@@ -39,16 +39,16 @@ _inputs:
 ---
 Nothing is green or [blue](#test).
 
-![](/upload/Screenshot_2023-07-12_at_9.35.47_PM_pniptu.png)
+
 
 ![](/sauces-home_rpbkg6.jpg)
 
 #
 
-# ![](/driedflowers30_v4xsbx.jpg)
+#
 
 # Then everything broke.
 
 **Time**: 1-2
 
-![](/zxrthhspobu3pdzvv2j3.jpg)![](https://res.cloudinary.com/vermilion-mandrill/image_0f961d36-8412-4e36-9fa1-26b14d760c3e_2000x_oixyns.webp)
+![](https://res.cloudinary.com/vermilion-mandrill/image_0f961d36-8412-4e36-9fa1-26b14d760c3e_2000x_oixyns.webp)
