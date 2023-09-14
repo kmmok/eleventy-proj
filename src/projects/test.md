@@ -41,9 +41,11 @@ Nothing is green or [blue](#test).
 
 ![](/sauces-home_rpbkg6.jpg)
 
-# ![](/upload/Landing_page_v7_v_vaerja.png)
+# ![](/upload/ahrhvmrycg7uh18ajcc7.png)
 
 # Then everything broke.
+
+
 
 **Time**: 1-2
 
