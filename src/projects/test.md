@@ -41,7 +41,7 @@ Nothing is green or [blue](#test).
 
 ![](/sauces-home_rpbkg6.jpg)
 
-#
+# ![](/SCR-20230823-sqdc_qzeja1.png)
 
 # ![](/driedflowers30_v4xsbx.jpg)
 
