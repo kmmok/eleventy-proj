@@ -39,8 +39,10 @@ _inputs:
 ---
 Nothing is green or [blue](#test).
 
+![](/sauces-home_rpbkg6.jpg)
+
 # Then everything broke.
 
-**Time**\: 1-2
+**Time**: 1-2
 
 ![](/zxrthhspobu3pdzvv2j3.jpg)![](https://res.cloudinary.com/vermilion-mandrill/image_0f961d36-8412-4e36-9fa1-26b14d760c3e_2000x_oixyns.webp)
