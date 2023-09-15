@@ -12,7 +12,7 @@ seo:
   page_title: About
   description: All about us!
   social_image: ''
-image: /upload/lnu1n2clhbmu2z1y4by6.png
+image: /upload/ago34gofzcrv0xinxof7.png
 call_to_action:
   allow_empty: true
   cta_button_text:
