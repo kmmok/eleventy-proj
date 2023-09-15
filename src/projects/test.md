@@ -41,7 +41,7 @@ Nothing is green or [blue](#test).
 
 ![](/sauces-home_rpbkg6.jpg)
 
-# ![](/jsiumvn6v1bakchik0cn.png)![](/upload/j1hayhh4qnzma88gmpfq.png)
+# ![](/jsiumvn6v1bakchik0cn.png)![](/upload/oq7tfd82ubyvknsszfnh.png)
 
 ![](/upload/q85zcc8xeygr6caafrrj.png)
 
