@@ -5,7 +5,7 @@ layout: "base.njk"
 <div class="project">
   <h2 class="project__heading">{{ title }}</h2>
   <div class="project__image-wrapper">
-      <img class="project__image" src="https://res.cloudinary.com/vermilion-mandrill/{{ image }}" alt="{{ imageAlt }}">
+      <img class="project__image" src="https://res.cloudinary.com/vermilion-mandrill{{ image }}" alt="{{ imageAlt }}">
   </div>
   <div class="project__content prose">
     {{ content | safe }}
