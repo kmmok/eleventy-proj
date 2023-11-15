@@ -13,7 +13,7 @@ function createSubject() {
 <h2 class="heading--main text-center">Ask us anything!</h2>
 <p class="contact__sub-heading text-center">Subheading </p>
 
-<form class="form" enctype="multipart/form-data" name="contact" action="/success" method="POST" data-netlify="false" onsubmit="return createSubject()" target="_blank">
+<form class="form" enctype="multipart/form-data" name="contact" action="/success" method="POST" data-netlify="false" onsubmit="return createSubject()" enctype="multipart/form-data">
   <div class="form__section">
     <label class="form__label" for="yourName">Name</label>
     <input class="form__input" name="name" type="text" id="yourName" required="true">
@@ -25,7 +25,9 @@ function createSubject() {
   <div class="form__section">
     <label class="form__label" for="message">Message</label>
     <textarea class="form__input" name="message" id="message" rows="4" required="true"></textarea>
+    <input accept="image/png, image/jpeg" id="avatar" name="avatar" type="file">
   </div>
+  
     <button class="form__button" type="submit">Let's talk</button>
     <input type="hidden" name="inbox_key" value="competition">
     <input type="hidden" name="_subject" value="" id="subject">
