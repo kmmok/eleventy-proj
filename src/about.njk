@@ -56,3 +56,31 @@ subscribeForm.addEventListener("submit", function (e) {
 });
 
 </script>
+
+<form action="" id="subscribeForm">
+  <h1>Subscribe</h1>
+  <input type="text" id="email" class="form-control" placeholder="Enter your email...">
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+let subscribeForm = document.getElementById("subscribeForm");
+
+subscribeForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  let email = document.getElementById("email");
+
+  if (email.value == "") {
+    alert("Ensure you input a value in both fields!");
+  } else {
+    // perform operation with form input
+    alert("This form has been successfully submitted!");
+    console.log(
+      `This form has a username of ${email.value}`
+    );
+
+    email.value = "";
+    }
+});
+</script>
