@@ -58,7 +58,14 @@ formEl.addEventListener("submit", function (e) {
     e.preventDefault();
 
   var request = new XMLHttpRequest();
-
+  
+  if (grecaptcha) {
+      var recaptchaResponse = grecaptcha.getResponse();
+    if (!recaptchaResponse) { // reCAPTCHA not clicked yet
+      return false;
+    }
+  }
+  
   request.addEventListener("load", function () {
     if (request.status === 302) { // CloudCannon redirects on success
       // It worked
