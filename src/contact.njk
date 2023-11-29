@@ -13,7 +13,10 @@ function createSubject() {
 <h2 class="heading--main text-center">Ask us anything!</h2>
 <p class="contact__sub-heading text-center">Subheading </p>
 
-<form class="form" enctype="multipart/form-data" name="contact" action="/success" method="POST" data-netlify="false" onsubmit="return createSubject()" enctype="multipart/form-data">
+
+
+{#<div class="h-captcha" data-sitekey="4210914d-b8ff-4e63-8eeb-10c4264570e5"></div>#}
+<form class="form" enctype="multipart/form-data" id="contact-form" name="contact" action="/success" method="POST" data-netlify="false" onsubmit="return createSubject()" enctype="multipart/form-data">
   <div class="form__section">
     <label class="form__label" for="yourName">Name</label>
     <input class="form__input" name="name" type="text" id="yourName" required="true">
@@ -34,6 +37,43 @@ function createSubject() {
     </div>
 </form>
 
-{#<div class="h-captcha" data-sitekey="4210914d-b8ff-4e63-8eeb-10c4264570e5"></div>#}
+<script>
+// Helper function to get form data in the supported format
+function getFormDataString(formEl) {
+    var formData = new FormData(formEl),
+      data = [];
 
+  for (var keyValue of formData) {
+      data.push(encodeURIComponent(keyValue[0]) + "=" + encodeURIComponent(keyValue[1]));
+  }
 
+  return data.join("&");
+}
+
+// Fetch the form element
+var formEl = document.getElementById("contact-form");
+
+// Override the submit event
+formEl.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+  if (grecaptcha) {
+      var recaptchaResponse = grecaptcha.getResponse();
+    if (!recaptchaResponse) { // reCAPTCHA not clicked yet
+      return false;
+    }
+  }
+
+  var request = new XMLHttpRequest();
+
+  request.addEventListener("load", function () {
+    if (request.status === 302) { // CloudCannon redirects on success
+      // It worked
+    }
+  });
+
+  request.open(formEl.method, formEl.action);
+  request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  request.send(getFormDataString(formEl));
+});
+</script>
