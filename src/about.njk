@@ -16,26 +16,48 @@ The Dunedin Youth Orchestra, (DYO) is Dunedin’s premier amateur orchestra for 
   <h1>Subscribe</h1>
   <input type="text" id="email" class="form-control" placeholder="Enter your email...">
   <button type="submit">Submit</button>
+  <input type="hidden" name="inbox_key" value="competition">
+
 </form>
 
 <script>
-let subscribeForm = document.getElementById("subscribeForm");
+// Helper function to get form data in the supported format
+function getFormDataString(formEl) {
+    var formData = new FormData(formEl),
+      data = [];
 
-subscribeForm.addEventListener("submit", (e) => {
-  e.preventDefault();
+  for (var keyValue of formData) {
+      data.push(encodeURIComponent(keyValue[0]) + "=" + encodeURIComponent(keyValue[1]));
+  }
 
-  let email = document.getElementById("email");
+  return data.join("&");
+}
 
-  if (email.value == "") {
-    alert("Ensure you input a value in both fields!");
-  } else {
-    // perform operation with form input
-    alert("This form has been successfully submitted!");
-    console.log(
-      `This form has a username of ${email.value}`
-    );
+// Fetch the form element
+var formEl = document.getElementById("subscribeForm");
 
-    email.value = "";
+// Override the submit event
+formEl.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+  if (grecaptcha) {
+      var recaptchaResponse = grecaptcha.getResponse();
+    if (!recaptchaResponse) { // reCAPTCHA not clicked yet
+      return false;
     }
+  }
+
+  var request = new XMLHttpRequest();
+
+  request.addEventListener("load", function () {
+    if (request.status === 302) { // CloudCannon redirects on success
+      // It worked
+    }
+  });
+
+  request.open(formEl.method, formEl.action);
+  request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+  request.send(getFormDataString(formEl));
 });
+
 </script>
