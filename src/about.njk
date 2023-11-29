@@ -34,10 +34,10 @@ function getFormDataString(formEl) {
 }
 
 // Fetch the form element
-var formEl = document.getElementById("subscribeForm");
+var subscribeForm = document.getElementById("subscribeForm");
 
 // Override the submit event
-formEl.addEventListener("submit", function (e) {
+subscribeForm.addEventListener("submit", function (e) {
     e.preventDefault();
 
 
@@ -49,9 +49,9 @@ formEl.addEventListener("submit", function (e) {
     }
   });
 
-  request.open(formEl.method, formEl.action);
+  request.open(subscribeForm.method, subscribeForm.action);
   request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
-  request.send(getFormDataString(formEl));
+  request.send(getFormDataString(subscribeForm));
 });
 
 </script>
