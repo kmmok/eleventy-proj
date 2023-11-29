@@ -59,7 +59,12 @@ formEl.addEventListener("submit", function (e) {
 
   var request = new XMLHttpRequest();
   
-  var grecaptcha = {};
+  var grecaptcha = {
+    getResponse: function() {
+        return ''; // You can modify this as needed
+    }
+  };
+
   if (grecaptcha) {
       var recaptchaResponse = grecaptcha.getResponse();
     if (!recaptchaResponse) { // reCAPTCHA not clicked yet
