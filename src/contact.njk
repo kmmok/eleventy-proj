@@ -1,6 +1,6 @@
 ---
-title: "Dunedin Youth Orchestra"
-layout: "base.njk"
+title: Dunedin Youth Orchestra
+layout: base.njk
 ---
 <!--<script src="https://js.hcaptcha.com/1/api.js" async defer></script>-->
 <script>
@@ -13,25 +13,25 @@ function createSubject() {
 <h2 class="heading--main text-center">Ask us anything!</h2>
 <p class="contact__sub-heading text-center">Subheading </p>
 
-<form class="form" enctype="multipart/form-data" name="contact" action="/success" data-netlify="false" onsubmit="return createSubject()" enctype="multipart/form-data">
+<form class="form" enctype="multipart/form-data" name="contact" action="/success" data-netlify="false" onsubmit="return createSubject()">
   <div class="form__section">
     <label class="form__label" for="yourName">Name</label>
-    <input class="form__input" name="name" type="text" id="yourName" required="true">
+    <input class="form__input" name="name" type="text" id="yourName" required="true" />
   </div>
   <div class="form__section">
     <label class="form__label" for="yourEmail">Email</label>
-    <input class="form__input" name="email" type="email"  id="yourEmail" required="true">
+    <input class="form__input" name="email" type="email" id="yourEmail" required="true" />
   </div>
   <div class="form__section">
     <label class="form__label" for="message">Message</label>
     <textarea class="form__input" name="message" id="message" rows="4" required="true"></textarea>
-    <input accept="image/png, image/jpeg" id="file" name="file" type="file">
+    <input accept="image/png, image/jpeg" id="file" name="file" type="file" />
   </div>
   
     <button class="form__button" type="submit">Let's talk</button>
-    <input type="hidden" name="inbox_key" value="competition">
-    <input type="hidden" name="_subject" value="" id="subject">
-    </div>
+    <input type="hidden" name="inbox_key" value="competition" />
+    <input type="hidden" name="_subject" value="" id="subject" />
+    
 </form>
 
 {#<div class="h-captcha" data-sitekey="4210914d-b8ff-4e63-8eeb-10c4264570e5"></div>#}
