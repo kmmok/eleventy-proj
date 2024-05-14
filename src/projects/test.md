@@ -1,7 +1,6 @@
 ---
 position: cover
 layout:
-company:
 _inputs:
   company:
     type: multiselect
