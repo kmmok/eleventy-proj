@@ -15,6 +15,4 @@ id: 54dfab13-92ff-4339-adec-e480c33caebf
 
 ![](/uploads/biker.jpg)
 
-```
-{% raw %}{{ image | image_url: width: 600 | image_tag }}{% endraw %}
-```
+sdfsdf

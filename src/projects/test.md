@@ -2,6 +2,13 @@
 position: cover
 layout:
 _inputs:
+  company:
+    type: multiselect
+    options:
+      values:
+      - Scout
+      - Scout MMC
+      - S1 Construction
   position:
     type: choice
     options:
