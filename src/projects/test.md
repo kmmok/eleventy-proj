@@ -1,14 +1,15 @@
 ---
 position: cover
 layout:
+company:
 _inputs:
   company:
     type: multiselect
     options:
       values:
-        - Scout
-        - Scout MMC
-        - S1 Construction
+      - Scout
+      - Scout MMC
+      - S1 Construction
   position:
     type: choice
     options:
