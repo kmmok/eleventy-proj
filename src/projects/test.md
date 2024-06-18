@@ -21,6 +21,10 @@ call_to_action:
     url:
 draft: false
 _inputs:
+  select_test:
+    type: select
+    options:
+      values: collections.projects
   call_to_action:
     type: object
     options:
