@@ -5,6 +5,9 @@ layout: "base.njk"
 
 <h2 class="projects__heading">Past concerts</h2>
 <div class="project-list">
+<a href="cloudcannon:#object.title">
+  Edit a variable within an object
+</a>
 <p>test</p>
   {% for project in collections.projects %}
     {% include "project-card.njk" %}
